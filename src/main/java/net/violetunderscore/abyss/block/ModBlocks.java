@@ -16,7 +16,10 @@ import net.violetunderscore.abyss.AbyssMod;
 public class ModBlocks {
 
     public static final Block DARK_QUARTZ_ORE = registerBlock("dark_quartz_ore",
-            new Block(AbstractBlock.Settings.create().strength(3.0F, 9.0F).sounds(BlockSoundGroup.STONE).mapColor(MapColor.PALE_YELLOW)));
+            new Block(AbstractBlock.Settings.create().strength(3.0F, 9.0F).
+                    sounds(BlockSoundGroup.STONE).mapColor(MapColor.PALE_YELLOW)
+                    .requiresTool()
+            ));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
