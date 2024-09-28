@@ -3,16 +3,16 @@
 	"id": "abyss-mod",
 	"version": "${version}",
 	"name": "Abyss Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "work in progress description coming soon",
 	"authors": [
-		"Me!"
+		"VioletUnderscore"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "GNU GPLv3",
-	"icon": "assets/abyss-mod/icon.png",
+	"icon": "assets/abyssmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

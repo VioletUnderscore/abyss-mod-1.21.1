@@ -2,6 +2,7 @@ package net.violetunderscore.abyss;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.violetunderscore.abyss.block.ModBlocks;
 import net.violetunderscore.abyss.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,8 @@ public class AbyssMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
